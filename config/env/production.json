@@ -1,0 +1,24 @@
+{
+	"dbURI": "mongodb+srv://isec:JYp34rqvSLMFvkBT@cluster0-eqbtr.gcp.mongodb.net/yallaplaces>?retryWrites=true&w=majority",
+	"host": "http://18.219.179.54",
+	"ticketValidationInDays": 365,
+	"banDurationInHours": 9,
+	"freeRetriesOnStrictRoutes": 5,
+	"timeBetweenPasswordResetsInHours": 1,
+	"maxLogins": 2,
+	"maxTicketUsagePerHour": 1500,
+	"foreignIpBlockInDays": 365,
+	"scanBlockInDays": 15,
+	"tempTokenDurationInHours": 0.5,
+	"timeZone": "Africa/Cairo",
+	"mailingServer": {
+		"host": "",
+		"port": "",
+		"secure": "",
+		"auth": {
+			"user": "",
+			"pass": ""
+		}
+	},
+	"emailVerificationUrl": "/verify/email"
+}

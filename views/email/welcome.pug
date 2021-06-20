@@ -1,0 +1,17 @@
+extends baseEmail
+
+block content
+  p
+    img(src='https://res.cloudinary.com/yallaplacesapp/image/upload/v1592470674/logo/Logo-B_vrzz70.png', width='200px', height='80px')
+  p Hi #{firstName},
+  p Welcome to Yallaplaces Family, we're glad to have you 🎉🙏
+  h4 your verification code is:
+  table.btn.btn-primary(role='presentation', border='0', cellpadding='0', cellspacing='0')
+    tbody
+      tr
+        td(align='left')
+          table(role='presentation', border='0', cellpadding='0', cellspacing='0')
+            tbody
+              tr
+                td
+                  a(href='') #{code}
